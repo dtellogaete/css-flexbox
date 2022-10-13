@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+/*Section*/
+
+.section{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Menu Section*/
+
+.menu{
+    background-color: white;    
+    display:flex; 
+    align-items: center; 
+    flex-direction: column;
+    justify-content: space-between;
+    width: 9em;
+    min-height: 100vh;
+    width: 20%;
+    height: 80px;
+    margin-top: 5px;
+}
+
+/*Chat Main*/
+
+.chat-main{    
+    display: flex;   
+    align-items: center; 
+    align-content: center;   
+    border: 0.5px solid #C0C6C8;
+    border-top: 0px;    
+    justify-content: space-around;
+    width: 100%        
+}
+
+.users-main{    
+    display: flex;
+    align-items: center;    
+    justify-content: flex-start;    
+}
+
+.users-main img{
+    border-radius: 50%;
+    width: 65px;  
+}
+
+.status-chat-main{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    align-items:center;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.status-chat-main p{
+    font-size: 15px;
+}
+
+.icons{
+    display: flex;
+    width: 60px;    
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;    
+}
+
+/*Button Chat*/
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+}
+
+.button-chat{
+    display: flex;
+    border: 0.5px solid #C0C6C8;
+    border-top: 0px;
+    padding: 30px;
+    width: 100%;   
+    justify-content: center;  
+    align-items: center; 
+}
+
+/*Chats*/
+
+.chat{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-right: 25px;
+    width: 100%;
+    border: 0.5px solid #C0C6C8;
+    border-top: 0px;    
+}
+
+.users{    
+    display: flex;
+    align-items: center;    
+    justify-content: flex-start;
+    width: 100%;    
+}
+
+.users img{
+    border-radius: 50%;
+    width: 65px;
+    width: 20%;
+    margin-left: 30px;   
+}
+
+.status-chat{
+    display:flex;
+    flex-direction:column;    
+    padding-left: 50px;
+    padding-top: 10px;  
+    width: 80%;
+    justify-content: flex-start;
+}
+
+.status-chat p{
+    font-size: 15px;    
+}
+
+/*Main Section*/
+
+.main{
+    background-color: #ECF0F1;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;       
+    width: 80%;
+}
+
+.main img{
+    width: 450px;
+    padding: 35px;  
+}
